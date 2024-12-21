@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3f6d1;
+}
+
+#panel {
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ptop..................................... */
+#ptop {
+    padding: 0px 30%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: #27d17c;
+}
+
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 23px;
+
+}
+
+.box {
+    padding: 10px 20px;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+/* pbtm................................ */
+
+#pbtm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* used to make the different portions on single webpage example making a header by not disturbing the full page */
+}
+.bubble{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #266f3f;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.bubble:hover{
+    background-color: #288351;
+    cursor: pointer;
+
+}
